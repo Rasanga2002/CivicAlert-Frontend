@@ -1,0 +1,157 @@
+# Node dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+.out/
+.next/
+.nuxt/
+.cache/
+tmp/
+temp/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Env files (keep secrets out of git)
+.env
+.env.*
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+
+# Package managers
+# npm
+package-lock.json
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+# pnpm
+pnpm-lock.yaml
+
+# TypeScript
+*.tsbuildinfo
+
+# Cache directories
+.cache/
+.eslintcache
+.stylelintcache
+.vite/
+vite-cache/
+parcel-cache/
+.sass-cache/
+.storybook-out/
+
+# Testing
+jest.setup.*
+jest.config.*
+jest-cache/
+jest-html-reporters-*/ 
+reports/
+playwright-report/
+test-results/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+.cypress-cache/
+
+# Framework specifics
+# Next.js
+.next/
+out/
+# Gatsby
+.public/
+.cache/
+# SvelteKit
+.svelte-kit/
+# Expo/React Native (if used for web)
+.expo/
+.expo-shared/
+
+# Static site generators
+public/
+
+# IDE & editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
+
+# Images and design tools
+*.sketch
+*.psd
+*.ai
+
+# Misc
+*.local
+*.swp
+*.swm
+*.swp.*
+*.swo
+*.orig
+*.bak
+*.tmp
+
+# Storybook
+storybook-static/
+.out-storybook/
+
+# Docker
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+Dockerfile.local
+
+# Firebase/Amplify
+.firebase/
+.firebaserc
+amplify/
+aws-exports.js
+aws-exports.ts
+
+# Vercel/Netlify
+.vercel/
+.netlify/
+
+# Prisma
+prisma/*.db
+prisma/migrations/*/snapshot.json
+
+# Moon/Repo tooling
+.moon/
+.npm/
+.npmrc.local
+.yarnrc.local
+
+# Monorepo (ignore if not used; safe defaults)
+packages/**/node_modules/
+apps/**/node_modules/
